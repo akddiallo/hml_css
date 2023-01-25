@@ -1,0 +1,53 @@
+nav{
+    background-color: rgb(245, 248, 246);
+    list-style: none;
+    margin-left: 200pxx;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+li a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    
+}
+.menu{
+    margin-left: 800px;
+}
+
+img{
+    width:1200px;
+    height:200px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.divparent{
+    background-color: rgb(31, 2, 62);
+    position: relative;
+    height: 300px;
+}
+.divimage{
+    position:absolute;
+    z-index: 1; 
+}
+.divparagraphe{
+    position:absolute;
+    z-index: 2;
+    color: azure;
+    font-size: 25px;
+}
+.divimage img{
+    height: 150px;
+    width: 200px;
+    margin-left: 1000px;
+}
+
